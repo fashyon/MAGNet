@@ -12,8 +12,6 @@ data_dir = os.path.join(root_dir, 'train/rain')
 mat_files = os.listdir(data_dir)
 num_datasets = len(mat_files)
 
-channel = 32
-
 lr = 5e-4
 batch_size = 8
 patch_size = 160
